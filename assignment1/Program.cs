@@ -38,6 +38,6 @@ if (invoice > 0)
     }
 }
 else { Console.WriteLine("invalid amount"); return; }
-
+// print the invoice after discount
 invoice = invoice -(invoice * (discount / 100));
 Console.WriteLine($"the total discount you have it {discount}%\nthe invoice after discount ={invoice}");
